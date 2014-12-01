@@ -1,3 +1,9 @@
+//Basic code from Microsoft Developer Network instructions on TCP connections
+//Modifications made to what is being sent via the sendbuffer, the use of the port
+//numbers to be a little easier to connect with, and the output -- namely that
+//the client now prints out the address it has connected to as well as what
+//specific data it was sent back.
+
 #define WIN32_LEAN_AND_MEAN
 
 #include <windows.h>
